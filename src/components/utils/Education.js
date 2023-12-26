@@ -9,7 +9,7 @@ export default function Education(props) {
     return (
         <div className='educationWrapper'>
             <h1 className='collegeTitle'>{props.college}</h1>
-            <h2 className='years'>{props.title}, {props.years}</h2>
+            <h2 className='years'>{props.title}  {props.years}</h2>
             <h2 className='summary'>{summary}</h2>
         </div>
     )
