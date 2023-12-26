@@ -8,7 +8,7 @@ export default function Skills(props) {
     }
     return (
         <div className='skills'>
-            <h1 className='skillsTitle'>{props.title}: </h1>
+            <h1 className='skillsTitle'>{props.title} </h1>
             {logos}
         </div>
     )
