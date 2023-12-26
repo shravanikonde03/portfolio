@@ -70,16 +70,28 @@ export default function About() {
                 <div className="skillsWrapper">
                     <h1 className="heading">Skills</h1>
                     <Skills
-                        title="Programming Languages"
-                        images={programmingLanguages}
+                        title="C++"
+                       
+                    ></Skills>
+                     <Skills
+                        title="HtML"
+                       
+                    ></Skills>
+                    <Skills
+                        title="Mysql"
+                       
+                    ></Skills>
+                     <Skills
+                        title="Mangodb"
+                       
                     ></Skills>
                     <Skills
                         title="Data Structure"
                        
                     ></Skills>
                     <Skills
-                        title="Full Stack Devlopment"
-                        images={FullStack}
+                        title="JavaScript"
+                       
                     ></Skills>
                 </div>
             </div>
