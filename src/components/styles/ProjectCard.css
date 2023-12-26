@@ -11,14 +11,14 @@
 
 .projectCardWrapper {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
     flex-direction: column;
     padding: 1em;
     box-shadow: 0 4px 8px 0 rgba(81, 63, 63, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 2em;
     flex-wrap: wrap;
-}
+}}
 
 .techIconWrapper, .techStackWrapper {
     display: flex;
@@ -43,7 +43,7 @@
     font-size: 1.5em;
 }
 
-@media screen and (max-width:540px) {
+@media screen and (max-width:600px) {
     .projectCardWrapper p{
         max-width: 80vw;
     }
