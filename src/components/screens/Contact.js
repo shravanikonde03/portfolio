@@ -7,7 +7,7 @@ import React from 'react';
 export default function Contact() {
     return (
         <div className='contactWrapper'>
-            <h1 className='contactHeading'>Hello there. Feel free to drop me a text!
+            <h1 className='contactHeading'>Hello contact me !
             
             </h1>
            
